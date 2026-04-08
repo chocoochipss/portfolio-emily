@@ -28,7 +28,7 @@ function Hero() {
         </div>
         <div className="hero-img">
           {/* Pastikan file eemily.png ada di folder public/img */}
-          <img src="/img/mily pinus.png" alt="Emily Pangemanan" />
+          <img src="/img/milys.png" alt="Emily Pangemanan" />
         </div>
       </div>
     </div>
