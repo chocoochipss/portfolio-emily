@@ -121,9 +121,11 @@ header nav .nav-links a.active {
 }
 
 .hero .hero-img img {
-  width: 600px;
-  border-radius: 50px;
-  margin-left: 250px;
+  width: 100%; /* Biar gambarnya fleksibel ngikutin layar */
+  max-width: 600px; /* Tapi jangan sampai lebih besar dari 600px */
+  border-radius: 250px;
+  display: block; /* Wajib ada supaya margin auto jalan */
+  margin: 0 auto; /* KUNCI: Atas-bawah 0, Kiri-kanan OTOMATIS (Tengah) */
 }
 
 /* start about */
